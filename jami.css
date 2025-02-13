@@ -2,6 +2,7 @@ html,body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 
 }
@@ -256,6 +257,147 @@ html,body{
     margin-left: 20px;
 
 }
+.network{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 0;
+}
+.faq{
+    display: flex;
+    flex-direction: row;
+
+}
+.happy{
+  
+    background-image: url(/home/tesfaye/Documents/imge/other.jpg);
+    box-sizing: border-box;
+    border: 2px solid gray;
+    margin-left: 100px;
+    width: 500px;
+    height: 370px;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+h6{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+   
+  
+   
+}
+.very{
+    color: white;
+    font-size: 15px;
+   
+   
+}
+.White{
+    width: 120px;
+    height: 35px;
+    border: 1px solid  gray;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 90px;
+    
+    
+}
+.wow{
+    
+    align-items: center;
+    justify-content: center;
+}
+.what{
+    margin-left: 100px;
+
+}
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.saka{
+    font-size: 15px;
+}
+hr {
+    border: none;
+    height: 2px; 
+    background-color: grey; 
+    margin: 20px 0;
+    width: 900px;
+    margin-left: 100px;
+}
+.next{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sad{
+    background-image: url(/home/tesfaye/Documents/imge/wome.jpg);
+    box-sizing: border-box;
+    border: 2px solid gray;
+    margin-left: 100px;
+    width: 500px;
+    height: 370px;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+.end{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 4px solid rgb(179, 69, 164);
+    height: 600px;
+    
+   background: linear-gradient(to bottom right, rgb(212, 3, 212), rgb(161, 84, 233));
+    
+    
+}
+.amenz{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.town{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.last{
+    width: 120px;
+    height: 35px;
+    border: 1px solid  gray;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+   
+    margin-left: 500px;
+}
+
+
+
 
 
 
