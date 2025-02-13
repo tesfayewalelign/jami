@@ -1,6 +1,7 @@
 html,body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
 
 }
@@ -203,6 +204,57 @@ html,body{
     margin-left: 500px;
    
    
+}
+.complex{
+    display: flex;
+    flex-direction: row;
+   margin-top: 100px;
+    box-sizing: border-box;
+    border: 10px solid rgb(212, 3, 212);
+    border-image: url('wave-border.svg') 30 stretch;
+    border-style: groove;
+    
+  
+   background: linear-gradient(to bottom right, rgb(212, 3, 212), rgb(161, 84, 233));
+
+   
+   
+    
+}
+.share{
+    margin: 100px;
+    height: 400px;
+}
+.share,h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+    
+}
+.dash{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 20px;
+    color: white;
+}
+.wale{
+    width: auto;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.white{
+    width: 120px;
+    height: 35px;
+    border: 1px solid  gray;
+    color: black;
+   background-color: white;
+    border-radius: 25px;
+    margin-left: 20px;
+
 }
 
 
