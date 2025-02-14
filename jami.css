@@ -6,6 +6,8 @@ html,body{
     
 
 }
+
+
 .head{
     display: flex;
     flex-direction: row;
@@ -39,6 +41,8 @@ html,body{
     border-radius: 15px;
     color: black;
     background-color: transparent;
+    position: relative; 
+    transition: transform 0.9s ease;
 
    
   
@@ -53,6 +57,9 @@ html,body{
     color: black;
     background: linear-gradient(to bottom right, rgb(212, 3, 212), rgb(161, 84, 233));
     border-radius: 25px;
+    position: relative; 
+    transition: transform 0.9s ease;
+    
     
 
 }
@@ -270,9 +277,13 @@ h5{
     font-size: 40px;
     margin-top: 0;
 }
-.faq{
+#faq{
     display: flex;
     flex-direction: row;
+    position: relative; 
+    transition: transform 0.9s ease; 
+
+    
 
 }
 .happy{
@@ -358,6 +369,8 @@ hr {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+    position: relative; 
+    transition: transform 0.9s ease; 
     
 }
 .end{
@@ -376,8 +389,8 @@ hr {
     font-size: 40px;
     color: white;
     text-align: center;
-    justify-content: center;
-    margin-top: 100px;
+    justify-content: enter;
+    margin-top: 250px;
 }
 .town{
     color: white;
