@@ -1,0 +1,16 @@
+.form{
+    background-color: white;
+            padding: 20px;
+           
+           
+            display: flex;
+            flex-direction: column;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
